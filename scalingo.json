@@ -1,0 +1,7 @@
+{
+  "name": "Sample Python FastAPI",
+  "description": "Sample Python web application using the FastAPI framework",
+  "logo": "https://scalingo.com/logo.svg",
+  "repository": "https://github.com/Scalingo/sample-python-fastapi",
+  "website": "https://sample-python-fastapi.scalingo.io"
+}
