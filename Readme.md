@@ -15,7 +15,7 @@ The application is running at this url: https://sample-python-fastapi.scalingo.i
 
 ## Deploy in One Click
 
-[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-python-fastapi)
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.osc-fr1.scalingo.com/deploy?source=https://github.com/Scalingo/sample-python-fastapi#main)
 
 ## Running Locally
 

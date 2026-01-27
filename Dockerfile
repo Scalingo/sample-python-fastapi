@@ -1,8 +1,10 @@
-FROM python:3.8.2
+FROM python:3.11
 
-RUN apt-get update && apt-get install --yes pipenv
+RUN pip install uv
 WORKDIR /usr/src/app
 
+COPY pyproject.toml uv.lock /usr/src/app/
+RUN uv sync --frozen --no-install-project
+
 COPY ./ /usr/src/app/
-RUN pipenv install --deploy --ignore-pipfile
-CMD pipenv run python app.py
+CMD uv run uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000}
