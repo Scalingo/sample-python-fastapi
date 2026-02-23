@@ -1,0 +1,4 @@
+# CODEOWNERS Automatic assignment
+
+pyproject.toml @SC-Samir
+uv.lock @SC-Samir
