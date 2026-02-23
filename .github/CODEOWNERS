@@ -1,4 +1,4 @@
 # CODEOWNERS Automatic assignment
 
-pyproject.toml @SC-Samir
-uv.lock @SC-Samir
+pyproject.toml @scalingo/devrel
+uv.lock @scalingo/devrel
