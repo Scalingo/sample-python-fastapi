@@ -1,0 +1,7 @@
+dependencies = []
+description = "Python/ FastAPI sample application"
+languages = ["dockerfile", "python"]
+owner = "devrel@scalingo.com"
+team = "DevRel"
+version = "1.0.2"
+tier = 2
